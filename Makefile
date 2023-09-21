@@ -98,7 +98,7 @@ GHC_RTS_OPTS := -M4G
 endif
 #
 endif
-GHC_OPTS = "+RTS -A128M $(GHC_RTS_OPTS) -RTS"
+GHC_OPTS = "-fwrite-ide-info -hiedir .hiefiles +RTS -A128M $(GHC_RTS_OPTS) -RTS"
 
 # The following options are used in several invocations of cabal
 # install/configure below. They are always the last options given to

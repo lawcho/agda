@@ -83,3 +83,4 @@ stack.yaml
 stack*.yaml.lock
 trash.txt
 \#*\#
+db.sqlite*

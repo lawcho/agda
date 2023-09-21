@@ -1,0 +1,65 @@
+digraph {
+node[style=filled,colorscheme=pastel19];
+"Agda.Syntax.Parser.Comments.nestedComment\n@[36,51]"[shape=ellipse,fillcolor=1]
+"Agda.Syntax.Parser.Layout.offsideRule\n@[142,151]"[shape=ellipse,fillcolor=2]
+"Agda.Syntax.Parser.LexActions.begin\n@[162,162]"[shape=ellipse,fillcolor=3]
+"Agda.Syntax.Parser.LexActions.lexToken\n@[74,89]"[shape=ellipse,fillcolor=3]
+"Agda.Syntax.Parser.LexActions.revisit\n@[154,154]"[shape=ellipse,fillcolor=3]
+"Agda.Syntax.Parser.LexActions.skip\n@[158,158]"[shape=ellipse,fillcolor=3]
+"Agda.Syntax.Parser.LexActions.skipTo\n@[64,66]"[shape=ellipse,fillcolor=3]
+"Agda.Syntax.Parser.Lexer.alexRightContext\n@[1696,1699]"[shape=ellipse,fillcolor=4]
+"Agda.Syntax.Parser.Lexer.alexScan\n@[1579,1580]"[shape=ellipse,fillcolor=4]
+"Agda.Syntax.Parser.Lexer.alexScanUser\n@[1582,1607]"[shape=ellipse,fillcolor=4]
+"Agda.Syntax.Parser.Lexer.alex_accept\n@[74,695]"[shape=ellipse,fillcolor=4]
+"Agda.Syntax.Parser.Lexer.alex_action_32\n@[361,361]"[shape=ellipse,fillcolor=4]
+"Agda.Syntax.Parser.Lexer.alex_action_36\n@[365,365]"[shape=ellipse,fillcolor=4]
+"Agda.Syntax.Parser.Lexer.alex_action_37\n@[366,366]"[shape=ellipse,fillcolor=4]
+"Agda.Syntax.Parser.Lexer.alex_action_38\n@[367,367]"[shape=ellipse,fillcolor=4]
+"Agda.Syntax.Parser.Lexer.alex_action_39\n@[368,368]"[shape=ellipse,fillcolor=4]
+"Agda.Syntax.Parser.Lexer.alex_action_40\n@[369,369]"[shape=ellipse,fillcolor=4]
+"Agda.Syntax.Parser.Lexer.alex_actions\n@[697,1272]"[shape=ellipse,fillcolor=4]
+"Agda.Syntax.Parser.Lexer.alex_scan_tkn\n@[1613,1663]"[shape=ellipse,fillcolor=4]
+"Agda.Syntax.Parser.Lexer.lexer\n@[314,314]"[shape=ellipse,fillcolor=4]
+"Agda.Syntax.Parser.Comments.nestedComment\n@[36,51]" -> "Agda.Syntax.Parser.LexActions.lexToken\n@[74,89]"
+"Agda.Syntax.Parser.Layout.offsideRule\n@[142,151]" -> "Agda.Syntax.Parser.LexActions.lexToken\n@[74,89]"
+"Agda.Syntax.Parser.LexActions.begin\n@[162,162]" -> "Agda.Syntax.Parser.LexActions.revisit\n@[154,154]"
+"Agda.Syntax.Parser.LexActions.lexToken\n@[74,89]" -> "Agda.Syntax.Parser.LexActions.skipTo\n@[64,66]"
+"Agda.Syntax.Parser.LexActions.lexToken\n@[74,89]" -> "Agda.Syntax.Parser.Lexer.alexScanUser\n@[1582,1607]"
+"Agda.Syntax.Parser.LexActions.revisit\n@[154,154]" -> "Agda.Syntax.Parser.LexActions.lexToken\n@[74,89]"
+"Agda.Syntax.Parser.LexActions.skip\n@[158,158]" -> "Agda.Syntax.Parser.LexActions.skipTo\n@[64,66]"
+"Agda.Syntax.Parser.LexActions.skipTo\n@[64,66]" -> "Agda.Syntax.Parser.LexActions.lexToken\n@[74,89]"
+"Agda.Syntax.Parser.Lexer.alexRightContext\n@[1696,1699]" -> "Agda.Syntax.Parser.Lexer.alex_scan_tkn\n@[1613,1663]"
+"Agda.Syntax.Parser.Lexer.alexScan\n@[1579,1580]" -> "Agda.Syntax.Parser.Lexer.alexScanUser\n@[1582,1607]"
+"Agda.Syntax.Parser.Lexer.alexScanUser\n@[1582,1607]" -> "Agda.Syntax.Parser.Lexer.alex_actions\n@[697,1272]"
+"Agda.Syntax.Parser.Lexer.alexScanUser\n@[1582,1607]" -> "Agda.Syntax.Parser.Lexer.alex_scan_tkn\n@[1613,1663]"
+"Agda.Syntax.Parser.Lexer.alex_accept\n@[74,695]" -> "Agda.Syntax.Parser.Comments.nestedComment\n@[36,51]"
+"Agda.Syntax.Parser.Lexer.alex_accept\n@[74,695]" -> "Agda.Syntax.Parser.Layout.offsideRule\n@[142,151]"
+"Agda.Syntax.Parser.Lexer.alex_accept\n@[74,695]" -> "Agda.Syntax.Parser.LexActions.begin\n@[162,162]"
+"Agda.Syntax.Parser.Lexer.alex_accept\n@[74,695]" -> "Agda.Syntax.Parser.LexActions.lexToken\n@[74,89]"
+"Agda.Syntax.Parser.Lexer.alex_accept\n@[74,695]" -> "Agda.Syntax.Parser.LexActions.skip\n@[158,158]"
+"Agda.Syntax.Parser.Lexer.alex_accept\n@[74,695]" -> "Agda.Syntax.Parser.Lexer.alexRightContext\n@[1696,1699]"
+"Agda.Syntax.Parser.Lexer.alex_accept\n@[74,695]" -> "Agda.Syntax.Parser.Lexer.alexScan\n@[1579,1580]"
+"Agda.Syntax.Parser.Lexer.alex_accept\n@[74,695]" -> "Agda.Syntax.Parser.Lexer.alexScanUser\n@[1582,1607]"
+"Agda.Syntax.Parser.Lexer.alex_accept\n@[74,695]" -> "Agda.Syntax.Parser.Lexer.alex_action_32\n@[361,361]"
+"Agda.Syntax.Parser.Lexer.alex_accept\n@[74,695]" -> "Agda.Syntax.Parser.Lexer.alex_action_36\n@[365,365]"
+"Agda.Syntax.Parser.Lexer.alex_accept\n@[74,695]" -> "Agda.Syntax.Parser.Lexer.alex_action_37\n@[366,366]"
+"Agda.Syntax.Parser.Lexer.alex_accept\n@[74,695]" -> "Agda.Syntax.Parser.Lexer.alex_action_38\n@[367,367]"
+"Agda.Syntax.Parser.Lexer.alex_accept\n@[74,695]" -> "Agda.Syntax.Parser.Lexer.alex_action_39\n@[368,368]"
+"Agda.Syntax.Parser.Lexer.alex_accept\n@[74,695]" -> "Agda.Syntax.Parser.Lexer.alex_action_40\n@[369,369]"
+"Agda.Syntax.Parser.Lexer.alex_accept\n@[74,695]" -> "Agda.Syntax.Parser.Lexer.lexer\n@[314,314]"
+"Agda.Syntax.Parser.Lexer.alex_action_32\n@[361,361]" -> "Agda.Syntax.Parser.Comments.nestedComment\n@[36,51]"
+"Agda.Syntax.Parser.Lexer.alex_action_36\n@[365,365]" -> "Agda.Syntax.Parser.LexActions.skip\n@[158,158]"
+"Agda.Syntax.Parser.Lexer.alex_action_37\n@[366,366]" -> "Agda.Syntax.Parser.LexActions.begin\n@[162,162]"
+"Agda.Syntax.Parser.Lexer.alex_action_38\n@[367,367]" -> "Agda.Syntax.Parser.LexActions.skip\n@[158,158]"
+"Agda.Syntax.Parser.Lexer.alex_action_39\n@[368,368]" -> "Agda.Syntax.Parser.Layout.offsideRule\n@[142,151]"
+"Agda.Syntax.Parser.Lexer.alex_action_40\n@[369,369]" -> "Agda.Syntax.Parser.LexActions.skip\n@[158,158]"
+"Agda.Syntax.Parser.Lexer.alex_actions\n@[697,1272]" -> "Agda.Syntax.Parser.Lexer.alex_action_32\n@[361,361]"
+"Agda.Syntax.Parser.Lexer.alex_actions\n@[697,1272]" -> "Agda.Syntax.Parser.Lexer.alex_action_36\n@[365,365]"
+"Agda.Syntax.Parser.Lexer.alex_actions\n@[697,1272]" -> "Agda.Syntax.Parser.Lexer.alex_action_37\n@[366,366]"
+"Agda.Syntax.Parser.Lexer.alex_actions\n@[697,1272]" -> "Agda.Syntax.Parser.Lexer.alex_action_38\n@[367,367]"
+"Agda.Syntax.Parser.Lexer.alex_actions\n@[697,1272]" -> "Agda.Syntax.Parser.Lexer.alex_action_39\n@[368,368]"
+"Agda.Syntax.Parser.Lexer.alex_actions\n@[697,1272]" -> "Agda.Syntax.Parser.Lexer.alex_action_40\n@[369,369]"
+"Agda.Syntax.Parser.Lexer.alex_scan_tkn\n@[1613,1663]" -> "Agda.Syntax.Parser.Lexer.alex_accept\n@[74,695]"
+"Agda.Syntax.Parser.Lexer.alex_scan_tkn\n@[1613,1663]" -> "Agda.Syntax.Parser.Lexer.alex_scan_tkn\n@[1613,1663]"
+"Agda.Syntax.Parser.Lexer.lexer\n@[314,314]" -> "Agda.Syntax.Parser.LexActions.lexToken\n@[74,89]"
+}

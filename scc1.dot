@@ -1,0 +1,23 @@
+digraph {
+node[style=filled,colorscheme=pastel19];
+"Agda.Syntax.Position.RangeFile\n@[147,163]"[shape=octagon,fillcolor=1]
+"Agda.Syntax.Position.Range\n@[253,253]"[shape=rect,fillcolor=1]
+"Agda.Syntax.Position.RangeFile\n@[147,164]"[shape=rect,fillcolor=1]
+"Agda.Syntax.Position.SrcFile\n@[143,143]"[shape=rect,fillcolor=1]
+"Agda.Syntax.TopLevelModuleName.TopLevelModuleName\n@[141,145]"[shape=octagon,fillcolor=2]
+"Agda.Syntax.TopLevelModuleName.TopLevelModuleName\n@[141,146]"[shape=rect,fillcolor=2]
+"Agda.Syntax.Position.RangeFile\n@[147,163]" -> "Agda.Syntax.Position.RangeFile\n@[147,163]"
+"Agda.Syntax.Position.RangeFile\n@[147,163]" -> "Agda.Syntax.TopLevelModuleName.TopLevelModuleName\n@[141,146]"
+"Agda.Syntax.Position.Range\n@[253,253]" -> "Agda.Syntax.Position.Range\n@[253,253]"
+"Agda.Syntax.Position.Range\n@[253,253]" -> "Agda.Syntax.Position.SrcFile\n@[143,143]"
+"Agda.Syntax.Position.RangeFile\n@[147,164]" -> "Agda.Syntax.Position.RangeFile\n@[147,163]"
+"Agda.Syntax.Position.RangeFile\n@[147,164]" -> "Agda.Syntax.Position.RangeFile\n@[147,164]"
+"Agda.Syntax.Position.RangeFile\n@[147,164]" -> "Agda.Syntax.TopLevelModuleName.TopLevelModuleName\n@[141,146]"
+"Agda.Syntax.Position.SrcFile\n@[143,143]" -> "Agda.Syntax.Position.RangeFile\n@[147,164]"
+"Agda.Syntax.Position.SrcFile\n@[143,143]" -> "Agda.Syntax.Position.SrcFile\n@[143,143]"
+"Agda.Syntax.TopLevelModuleName.TopLevelModuleName\n@[141,145]" -> "Agda.Syntax.Position.Range\n@[253,253]"
+"Agda.Syntax.TopLevelModuleName.TopLevelModuleName\n@[141,145]" -> "Agda.Syntax.TopLevelModuleName.TopLevelModuleName\n@[141,145]"
+"Agda.Syntax.TopLevelModuleName.TopLevelModuleName\n@[141,146]" -> "Agda.Syntax.Position.Range\n@[253,253]"
+"Agda.Syntax.TopLevelModuleName.TopLevelModuleName\n@[141,146]" -> "Agda.Syntax.TopLevelModuleName.TopLevelModuleName\n@[141,145]"
+"Agda.Syntax.TopLevelModuleName.TopLevelModuleName\n@[141,146]" -> "Agda.Syntax.TopLevelModuleName.TopLevelModuleName\n@[141,146]"
+}
